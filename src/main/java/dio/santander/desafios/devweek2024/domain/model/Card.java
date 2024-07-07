@@ -20,6 +20,6 @@ public class Card extends AbstractModel {
 
     @Column(unique = true, nullable = false)
     private String number;
-    @Column(name = "card_limit", scale = 13, precision = 2, nullable = false)
+    @Column(name = "card_limit", scale = 2, precision = 13, nullable = false)
     private BigDecimal limit;
 }
